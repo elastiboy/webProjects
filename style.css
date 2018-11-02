@@ -1,0 +1,180 @@
+@media only screen and (max-width: 642px) {
+    #menu {
+        display: inline;
+        position: relative;
+    }
+
+    .options {
+        display: none;
+        position: relative;
+    }
+}
+html, body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background: #000;
+  opacity: .9;
+  text-align: center;
+}
+
+
+#header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  height: 69px;
+  border-bottom: 1px solid #fff;
+  position: fixed;
+  z-index: 1;
+  background: #000;
+  margin-top: 0;
+}
+
+#header-nav{
+
+
+
+}
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+  font-size: 22px;
+  font-family: 'Abel', sans-serif;
+  opacity: 0.9;
+  text-decoration: underline;
+  margin-right: 20px;
+
+}
+#header a{
+  color: seashell;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+
+}
+#header a:hover{
+
+  color: #1abc9c;
+}
+#info h5 {
+  text-align: center;
+  color: seashell;
+  text-decoration: none;
+font-family: 'Montserrat', sans-serif;
+text-transform: lowercase;
+}
+#info h2{
+  text-align: center;
+  color: seashell;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: capitalize;
+}
+
+#info{
+  background-color: black;
+  padding: 100px 0;
+
+}
+#imgSize{
+  width: 200px;
+  height: 50px;
+}
+.container1 {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    max-width: 1200px;
+    background: url("img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+.center-text {
+    width: 100%;
+    background: #000;
+    align-items: center;
+}
+.container3{
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  width: 1200px;
+  background: url("img-locations-background.jpg");
+  align-content: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  align-items: center;
+}
+.box1{
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+  line-height: 2.5em;
+  border-radius: 70%;
+
+
+}
+.box2{
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+    line-height: 2.5em;
+    border-radius: 70%;
+}
+.box3{
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+    line-height: 2.5em;
+    border-radius: 70%;
+}
+.container2{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.teas{
+  width: 300px;
+  height: 300px;
+  padding: 15px;
+}
+.teas img{
+    width: 300px;
+    height: 200px;
+    margin: 0;
+
+}
+.container2 header {
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container3 header {
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.items{
+  max-width: 1000px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+footer{
+  color: seashell;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  float: left;
+margin: 50px auto;
+max-width: 100%;
+position: relative;
+padding-left: 60px;
+}
